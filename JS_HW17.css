@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background: rgb(16, 4, 49);
+}
+#containerOne,#containerTwo,#containerThree{
+    width: 100%;
+    height: 200px;
+    border: 3px solid rgb(159, 209, 207);
+    box-shadow:0 0 20px 0 rgb(103, 238, 233);
+}
+#containerTwo,#containerThree,button,#loopBox{
+    margin-top: 40px;
+}
+#date,#clock,button,#loopBox{
+    text-align: center;
+    text-shadow:0 0 4px rgb(103, 238, 233);
+    color: rgb(159, 209, 207);
+
+}
+#date{
+    font-size: 30px;
+
+}
+#clock{
+    font-size: 90px;
+    margin-top: 10px;
+}
+#stopwatch,button,#timerNumber,#timer,#containerThree p{
+    color: rgb(159, 209, 207);   
+}
+button,#loopBox{
+    margin-left: 10px;
+    border: 2px solid rgb(95, 35, 190);
+    background-color: rgb(53, 29, 119);
+    border-radius: 5px;
+}
+#stopwatch{
+    font-size: 40px;
+    padding-left: 170px;
+    padding-top: 40px;
+}
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 110px;
+}
+#loopBox{
+    width: 250px;
+    height: 150px;
+    margin-left: 900px;
+    position: absolute;
+    top: 220px;
+    opacity: 0.4;
+    color: rgb(159, 209, 207);  
+    font-size: 20px; 
+}
+#timerNumber,#timer,#containerThree p{
+    margin-left: 400px;
+    font-size: 60px;
+}
+#containerThree p{
+    font-size: 20px;
+    margin-left: 385px;
+}
+.buttonTimerNumber{
+    margin-left: 380px;
+}
+.minus,.plus{
+    width: 30px;
+    height: 30px;
+}
+.buttonTimer{
+    left: 1000px;
+    position: absolute;
+    bottom: 80px;
+}
+#timer{
+    margin-left: 1080px;
+    position: absolute;
+    bottom: 140px;
+}
